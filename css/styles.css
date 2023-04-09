@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a,p,h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 0px 15px black;
+}
+
+body{
+    background: #222;
+}
+
+.profilo{
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.profilo h2{
+    color: white;
+}
+
+.profilo img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+}
+
+.social{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius
+  background: black;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
